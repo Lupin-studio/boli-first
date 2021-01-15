@@ -2,13 +2,87 @@
 	height: 65px;
 }
 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
+	
+	 
+	 .card{
+		 min-width: 180px;
+	 }
+	 .art-p{
+		 font-size:6px;
+		 line-height: 2px;
+	 }
+	 .card-img{
+		 min-width: 130px;
+	 }
 /*nav選單*/
-	.navbar{
+	/* .navbar{
 	padding-left:50px!important;
-	padding-right:50px!important; 
+	padding-right:50px!important; }
+}
+@media (max-width: 768px) { */
+	/* .about{
+		background:linear-gradient #e3e2b4 #F0E5DE);  
+ } */
+	/* .card{
+		min-width: 320px;
+	} 
+	.art-p{
+		min-width: 8px;
+	}
+	.card-img{
+		min-width: 320px;
+	}
+} */ 
+	
+
+/* S size
+@media (orientation: portrait), (max-width:767px) {
+    .main  p{
+        font-size: 24px;
+    }
+    .menu{
+        max-width: 320px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .learnmore{
+        font-size: 18px;
+        float: none;
+        text-align: center;
+        width: 120px;
+        height: 40px;
+        margin: auto;
+        margin-top: 2em;
+    }
+    .LatestNews{
+        max-width: 400px;
+    }
+    
+    .news-date{
+        font-size: 8px;
+    }
+    .news-title{
+        font-size: 16px;
+    }
+    .news-contain{
+        font-size: 12px;
+    }
+} */
+	
+.naver-ig{
+	display: inline-block;
+	float: none;
+	vertical-align: baseline;
 	
 }
+.navbar-right{
+	display: inline-block;
+  float: none;
+  vertical-align: bottom;
+}
+
 .nav-link{
 	margin: 10px;
 	list-style: none;
@@ -25,9 +99,10 @@
 
 
 .about {
-	margin-top: 50px;
+	
 	padding:35px 0;
-	background:linear-gradient(#ffffff,#F0E5DE); 
+	background:linear-gradient#F0E5DE); 
+	background-color:#F0E5DE ;
 }
 
 .about img {
@@ -78,6 +153,52 @@
 .product_name {
 	padding: 10px;
 }
+
+
+/* Content Style */
+.content-area {
+	display: flex;
+	border-top: 8Px ;
+	margin-top: 8px;
+	margin-bottom: 20px;
+
+}
+
+/* Main-Area Style */
+.main-area {
+	width: 66%;
+	padding-right: 40px;
+	padding-left: 5px;
+	background-color: #ffffff;
+	
+}
+.art-p{
+	
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 10px;　　　　　          /* 設定文字大小 */
+    line-height: 6px;　　　          　/* 設定文字行距 */
+    letter-spacing: 3px;　            　/* 設定文字間距 */
+}
+
+/* SideBar Style */
+.sidebar {
+	width: 34%;
+	background-color: #e3e2b4;
+	padding: 10px 40px;
+	font-size: 85%;
+} 
+.card {
+	background-color: #ffffff;
+	padding: 20px 10px 5px 20px;
+	margin-bottom: 10px;
+}
+.card-img {
+	width:100%;
+	margin-bottom:5px;
+}
+
+
 .contact {
 	height:750px;
 	padding-top: 100px;
@@ -89,14 +210,18 @@
 }
 
 .contact .title {
-	color:#ffffff;
+	color:black;
+	font-size:20px;
+	font-weight: bold;
 }
 
 .contact .form {
 	max-width: 600px;
-	margin:0 auto;
-	padding: 0 30px;
+	margin:5px auto;
+	padding: 0 50px;
 	color:#ffffff;
+	
+	
 }
 
 .form input {
@@ -124,7 +249,7 @@
 }
 
 input[type=submit] {
-  background-color: #ABD0CE;
+  background-color: #bfc8d7;
   color: white;
   cursor: pointer;
   width: 100px!important;
@@ -132,14 +257,18 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #8ABCB8;
+  background-color: #bfc8d7;
 }
 
 footer {
-	background-color: #c1adad;
+	background-color: #a2b59f;
 	padding:20px 0; 
 }
 
 footer p {
 	line-height: 39px;
 }
+
+
+
+
